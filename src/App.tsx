@@ -9,6 +9,7 @@ import {
   Icon,
   Image,
   Item,
+  List,
 } from 'semantic-ui-react';
 import collageOfTourism from './img/collageOfTourism.png';
 import fitneer from './img/fitneer.svg';
@@ -55,19 +56,68 @@ function App() {
           </Card>
         </Grid.Column>
         <Grid.Column>
-          <Header as="h2">
-            About
-            <br />
-            <br />
-            <Header.Subheader>
-              I love Functional Programming, Linux, OSS, the Web and Data
-              Science.
-            </Header.Subheader>
-            <Header.Subheader>
-              Colleagues perceive me as passionate, trustworthy, knowledgeable
-              and as a good teacher.
-            </Header.Subheader>
-          </Header>
+          <Grid.Row>
+            <Header as="h2">
+              About
+              <br />
+              <br />
+              <Header.Subheader>
+                I love Functional Programming, Linux, OSS, the Web and Data
+                Science.
+              </Header.Subheader>
+              <Header.Subheader>
+                Colleagues perceive me as passionate, trustworthy, knowledgeable
+                and as a good teacher.
+              </Header.Subheader>
+            </Header>
+          </Grid.Row>
+          <Divider />
+          <Grid.Row>
+            <List>
+              <List.Item>
+                <List.Icon name="user" />
+                <List.Content>Mateja Petrovic</List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Icon name="marker" />
+                <List.Content>Belgrade, Serbia</List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Icon name="mail" />
+                <List.Content>
+                  <a href="mailto:mateja176@gmail.com">mateja176@gmail.com</a>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Icon name="github" />
+                <List.Content>
+                  <a href="https://github.com/mateja176">Github Profile</a>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Icon name="linkedin" />
+                <List.Content>
+                  <a href="https://linkedin.com/in/mateja-petrović-a5a07ab2">
+                    LinkedIn Profile
+                  </a>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Icon name="bolt" />
+                <List.Content>
+                  <a href="https://stackblitz.com/@mateja176">
+                    Stackblitz Profile
+                  </a>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <List.Icon name="pencil" />
+                <List.Content>
+                  <a href="https://codepen.io/mateja176">CodePen Profile</a>
+                </List.Content>
+              </List.Item>
+            </List>
+          </Grid.Row>
         </Grid.Column>
       </Grid.Row>
       <Divider />
