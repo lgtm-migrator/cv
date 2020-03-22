@@ -189,6 +189,9 @@ function App() {
             <List.Item>Semantic HTML</List.Item>
             <List.Item>UX & UI Principles</List.Item>
             <List.Item>Responsive Design</List.Item>
+            <List.Item>Performance Optimization</List.Item>
+            <List.Item>Google Analytics</List.Item>
+            <List.Item>SEO</List.Item>
           </List>
         </Grid.Column>
         <Grid.Column>
@@ -247,8 +250,6 @@ function App() {
             <List.Item>Bash</List.Item>
             <List.Item>Fish</List.Item>
             <List.Item>Performance Monitoring</List.Item>
-            <List.Item>Performance Optimization</List.Item>
-            <List.Item>Google Analytics</List.Item>
             <List.Item>Visual Studio Code</List.Item>
             <List.Item>Chrome DevTools</List.Item>
             <List.Item>PhotoShop</List.Item>
