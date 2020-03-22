@@ -114,7 +114,7 @@ function App() {
         <Grid.Column>
           <Card className={css(style.card)}>
             <Image src={profile} wrapped ui={false} />
-            <Card.Content>
+            {/* <Card.Content>
               <Card.Header>Mateja Petrovic</Card.Header>
               <Card.Meta>
                 <span className="date">From Belgrade, Serbia</span>
@@ -123,7 +123,7 @@ function App() {
             </Card.Content>
             <Card.Content extra>
               <Icon name="briefcase" />3 years of experience
-            </Card.Content>
+            </Card.Content> */}
           </Card>
         </Grid.Column>
       </Grid.Row>
