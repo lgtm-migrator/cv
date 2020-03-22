@@ -15,7 +15,7 @@ const style = StyleSheet.create({
 
 function App() {
   return (
-    <Grid className={css(style.container)}>
+    <Grid className={css(style.container)} columns="equal">
       {/* <Grid.Row>
         <Grid.Column textAlign="center">
           <Header as="h2" icon>
@@ -25,7 +25,7 @@ function App() {
           </Header>
         </Grid.Column>
       </Grid.Row> */}
-      <Grid.Row>
+      <Grid.Column>
         <Card className={css(style.card)}>
           <Image src={profile} wrapped ui={false} />
           <Card.Content>
@@ -39,7 +39,21 @@ function App() {
             <Icon name="briefcase" />3 years of experience
           </Card.Content>
         </Card>
-      </Grid.Row>
+      </Grid.Column>
+      <Grid.Column width={10}>
+        <Header as="h2">
+          About
+          <br />
+          <br />
+          <Header.Subheader>
+            I love Functional Programming, Linux, OSS, the Web and Data Science.
+          </Header.Subheader>
+          <Header.Subheader>
+            Colleagues perceive me as passionate, trustworthy, knowledgeable and
+            as a good teacher.
+          </Header.Subheader>
+        </Header>
+      </Grid.Column>
     </Grid>
   );
 }
