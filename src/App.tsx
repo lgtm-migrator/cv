@@ -38,35 +38,50 @@ function App() {
           </Header>
         </Grid.Column>
       </Grid.Row> */}
-      <Grid.Column width={3}>
-        <Card className={css(style.card)}>
-          <Image src={profile} wrapped ui={false} />
-          <Card.Content>
-            <Card.Header>Mateja Petrovic</Card.Header>
-            <Card.Meta>
-              <span className="date">From Belgrade, Serbia</span>
-            </Card.Meta>
-            <Card.Description>Full Stack Developer</Card.Description>
-          </Card.Content>
-          <Card.Content extra>
-            <Icon name="briefcase" />3 years of experience
-          </Card.Content>
-        </Card>
-      </Grid.Column>
-      <Grid.Column>
-        <Header as="h2">
-          About
-          <br />
-          <br />
-          <Header.Subheader>
-            I love Functional Programming, Linux, OSS, the Web and Data Science.
-          </Header.Subheader>
-          <Header.Subheader>
-            Colleagues perceive me as passionate, trustworthy, knowledgeable and
-            as a good teacher.
-          </Header.Subheader>
-        </Header>
-      </Grid.Column>
+      <Grid.Row>
+        <Grid.Column width={3}>
+          <Card className={css(style.card)}>
+            <Image src={profile} wrapped ui={false} />
+            <Card.Content>
+              <Card.Header>Mateja Petrovic</Card.Header>
+              <Card.Meta>
+                <span className="date">From Belgrade, Serbia</span>
+              </Card.Meta>
+              <Card.Description>Full Stack Developer</Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              <Icon name="briefcase" />3 years of experience
+            </Card.Content>
+          </Card>
+        </Grid.Column>
+        <Grid.Column>
+          <Header as="h2">
+            About
+            <br />
+            <br />
+            <Header.Subheader>
+              I love Functional Programming, Linux, OSS, the Web and Data
+              Science.
+            </Header.Subheader>
+            <Header.Subheader>
+              Colleagues perceive me as passionate, trustworthy, knowledgeable
+              and as a good teacher.
+            </Header.Subheader>
+          </Header>
+        </Grid.Column>
+      </Grid.Row>
+      <Divider />
+      <Grid.Row>
+        <Grid.Column width={3} textAlign="center" verticalAlign="middle">
+          <Header as="h2" icon>
+            <Icon name="wrench" />
+            Skills
+          </Header>
+        </Grid.Column>
+
+        <Item.Group></Item.Group>
+      </Grid.Row>
+      <Divider />
       <Grid.Row>
         <Grid.Column width={3} textAlign="center" verticalAlign="middle">
           <Header as="h2" icon>
