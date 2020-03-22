@@ -40,24 +40,15 @@ function App() {
         </Grid.Column>
       </Grid.Row> */}
       <Grid.Row>
-        <Grid.Column width={3}>
-          <Card className={css(style.card)}>
-            <Image src={profile} wrapped ui={false} />
-            <Card.Content>
-              <Card.Header>Mateja Petrovic</Card.Header>
-              <Card.Meta>
-                <span className="date">From Belgrade, Serbia</span>
-              </Card.Meta>
-              <Card.Description>Full Stack Developer</Card.Description>
-            </Card.Content>
-            <Card.Content extra>
-              <Icon name="briefcase" />3 years of experience
-            </Card.Content>
-          </Card>
+        <Grid.Column width={3} textAlign="center" verticalAlign="middle">
+          <Header as="h2" icon>
+            <Icon name="user" />
+            Personal Info
+          </Header>
         </Grid.Column>
-        <Grid.Column>
+        <Grid.Column width={10}>
           <Grid.Row>
-            <Header as="h2">
+            <Header>
               About
               <br />
               <br />
@@ -73,6 +64,7 @@ function App() {
           </Grid.Row>
           <Divider />
           <Grid.Row>
+            <Header>Links</Header>
             <List>
               <List.Item>
                 <List.Icon name="user" />
@@ -118,6 +110,21 @@ function App() {
               </List.Item>
             </List>
           </Grid.Row>
+        </Grid.Column>
+        <Grid.Column>
+          <Card className={css(style.card)}>
+            <Image src={profile} wrapped ui={false} />
+            <Card.Content>
+              <Card.Header>Mateja Petrovic</Card.Header>
+              <Card.Meta>
+                <span className="date">From Belgrade, Serbia</span>
+              </Card.Meta>
+              <Card.Description>Full Stack Developer</Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              <Icon name="briefcase" />3 years of experience
+            </Card.Content>
+          </Card>
         </Grid.Column>
       </Grid.Row>
       <Divider />
