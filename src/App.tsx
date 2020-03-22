@@ -329,7 +329,7 @@ function App() {
             <Item.Image size="tiny" src={collegeOfTourism} />
 
             <Item.Content>
-              <Item.Header as="a">college of Tourism</Item.Header>
+              <Item.Header as="a">College of Tourism</Item.Header>
               <Item.Meta>In Belgrade</Item.Meta>
               <Item.Description>Economist</Item.Description>
               <Item.Extra>2014 - 2017</Item.Extra>
