@@ -22,9 +22,6 @@ const style = StyleSheet.create({
   container: {
     padding: 20,
   },
-  card: {
-    margin: 'auto',
-  },
 });
 
 function App() {
@@ -46,7 +43,7 @@ function App() {
             Personal Info
           </Header>
         </Grid.Column>
-        <Grid.Column width={10}>
+        <Grid.Column>
           <Grid.Row>
             <Header>
               About
@@ -112,7 +109,7 @@ function App() {
           </Grid.Row>
         </Grid.Column>
         <Grid.Column>
-          <Card className={css(style.card)}>
+          <Card>
             <Image src={profile} wrapped ui={false} />
             {/* <Card.Content>
               <Card.Header>Mateja Petrovic</Card.Header>
