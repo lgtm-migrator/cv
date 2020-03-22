@@ -231,6 +231,7 @@ function App() {
             <List.Item>Drizzle</List.Item>
             <List.Item>Puppeteer</List.Item>
             <List.Item>Moo & Nearley</List.Item>
+            <List.Item>Regular Expressions</List.Item>
           </List>
         </Grid.Column>
         <Grid.Column>
@@ -254,7 +255,6 @@ function App() {
             <List.Item>Chrome DevTools</List.Item>
             <List.Item>PhotoShop</List.Item>
             <List.Item>Illustrator</List.Item>
-            <List.Item>Regular Expressions</List.Item>
           </List>
         </Grid.Column>
         <Grid.Column>
