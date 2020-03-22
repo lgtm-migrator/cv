@@ -186,6 +186,7 @@ function App() {
             <List.Item>Storybook</List.Item>
             <List.Item>Bit</List.Item>
             <List.Item>Gatsby</List.Item>
+            <List.Item>Semantic HTML</List.Item>
             <List.Item>UX & UI Principles</List.Item>
             <List.Item>Responsive Design</List.Item>
           </List>
