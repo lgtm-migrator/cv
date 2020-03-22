@@ -57,7 +57,7 @@ function App() {
                 Science.
               </Header.Subheader>
               <Header.Subheader>
-                Colleagues perceive me as passionate, trustworthy, knowledgeable
+                Colleagues describe me as passionate, trustworthy, knowledgeable
                 and as a good teacher.
               </Header.Subheader>
             </Header>
