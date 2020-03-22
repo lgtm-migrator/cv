@@ -1,8 +1,18 @@
 import { css, StyleSheet } from 'aphrodite';
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import { Card, Grid, Header, Icon, Image, Item } from 'semantic-ui-react';
+import {
+  Card,
+  Divider,
+  Grid,
+  Header,
+  Icon,
+  Image,
+  Item,
+} from 'semantic-ui-react';
+import collageOfTourism from './img/collageOfTourism.png';
 import fitneer from './img/fitneer.svg';
+import fon from './img/fon.png';
 import highoutput from './img/highoutput.png';
 import levi9 from './img/levi9.jpeg';
 import profile from './img/profile.jpg';
@@ -96,6 +106,41 @@ function App() {
               <Item.Meta>Find your fitness peer</Item.Meta>
               <Item.Description>FullStack Developer</Item.Description>
               <Item.Extra>2017 July - 2018 October</Item.Extra>
+            </Item.Content>
+          </Item>
+        </Item.Group>
+      </Grid.Row>
+      <Divider />
+      <Grid.Row>
+        <Grid.Column width={3} textAlign="center" verticalAlign="middle">
+          <Header as="h2" icon>
+            <Icon name="book" />
+            Education
+          </Header>
+        </Grid.Column>
+
+        <Item.Group>
+          <Item>
+            <Item.Image size="tiny" src={collageOfTourism} />
+
+            <Item.Content>
+              <Item.Header as="a">Collage of Tourism</Item.Header>
+              <Item.Meta>In Belgrade</Item.Meta>
+              <Item.Description>Economist</Item.Description>
+              <Item.Extra>2014 - 2017</Item.Extra>
+            </Item.Content>
+          </Item>
+          <br />
+          <Item>
+            <Item.Image size="tiny" src={fon} />
+
+            <Item.Content>
+              <Item.Header as="a">
+                Faculty of Organizational Sciences
+              </Item.Header>
+              <Item.Meta>In Belgrade</Item.Meta>
+              <Item.Description>Manager</Item.Description>
+              <Item.Extra>2014 - 2016</Item.Extra>
             </Item.Content>
           </Item>
         </Item.Group>
