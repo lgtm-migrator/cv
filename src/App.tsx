@@ -1,7 +1,10 @@
 import { css, StyleSheet } from 'aphrodite';
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import { Card, Grid, Header, Icon, Image } from 'semantic-ui-react';
+import { Card, Grid, Header, Icon, Image, Item } from 'semantic-ui-react';
+import fitneer from './img/fitneer.svg';
+import highoutput from './img/highoutput.png';
+import levi9 from './img/levi9.jpeg';
 import profile from './img/profile.jpg';
 
 const style = StyleSheet.create({
@@ -25,7 +28,7 @@ function App() {
           </Header>
         </Grid.Column>
       </Grid.Row> */}
-      <Grid.Column>
+      <Grid.Column width={3}>
         <Card className={css(style.card)}>
           <Image src={profile} wrapped ui={false} />
           <Card.Content>
@@ -40,7 +43,7 @@ function App() {
           </Card.Content>
         </Card>
       </Grid.Column>
-      <Grid.Column width={10}>
+      <Grid.Column>
         <Header as="h2">
           About
           <br />
@@ -54,6 +57,49 @@ function App() {
           </Header.Subheader>
         </Header>
       </Grid.Column>
+      <Grid.Row>
+        <Grid.Column width={3} textAlign="center" verticalAlign="middle">
+          <Header as="h2" icon>
+            <Icon name="briefcase" />
+            Career
+          </Header>
+        </Grid.Column>
+
+        <Item.Group>
+          <Item>
+            <Item.Image size="tiny" src={levi9} />
+
+            <Item.Content>
+              <Item.Header as="a">Levi9</Item.Header>
+              <Item.Meta>Technology Services</Item.Meta>
+              <Item.Description>JavaScript Developer</Item.Description>
+              <Item.Extra>2019 February - Preset</Item.Extra>
+            </Item.Content>
+          </Item>
+          <br />
+          <Item>
+            <Item.Image size="tiny" src={highoutput} />
+
+            <Item.Content>
+              <Item.Header as="a">HighOutput</Item.Header>
+              <Item.Meta>Ventures</Item.Meta>
+              <Item.Description>JavaScript Developer</Item.Description>
+              <Item.Extra>2018 October - 2019 February</Item.Extra>
+            </Item.Content>
+          </Item>
+          <br />
+          <Item>
+            <Item.Image size="tiny" src={fitneer} />
+
+            <Item.Content>
+              <Item.Header as="a">Fitneer</Item.Header>
+              <Item.Meta>Find your fitness peer</Item.Meta>
+              <Item.Description>FullStack Developer</Item.Description>
+              <Item.Extra>2017 July - 2018 October</Item.Extra>
+            </Item.Content>
+          </Item>
+        </Item.Group>
+      </Grid.Row>
     </Grid>
   );
 }
