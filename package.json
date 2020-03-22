@@ -23,8 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "ts-node --project scripts/tsconfig.json scripts/deploy",
-    "ci": "yarn build && yarn deploy"
+    "deploy": "ts-node --project tsconfig.server.json scripts/deploy",
+    "ci": "yarn build && yarn deploy",
+    "generate:pdf": "ts-node --project tsconfig.server.json services/generatePdf"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,6 +43,8 @@
     ]
   },
   "devDependencies": {
+    "@types/puppeteer": "^2.0.1",
+    "puppeteer": "^2.1.1",
     "surge": "^0.21.3",
     "ts-node": "^8.8.1"
   }
