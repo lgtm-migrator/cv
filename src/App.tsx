@@ -142,50 +142,21 @@ function App() {
             <List.Item>VueJS</List.Item>
             <List.Item>Elm</List.Item>
             <List.Item>Redux</List.Item>
-            <List.Item>Redux Observable</List.Item>
-            <List.Item>Redux Thunk</List.Item>
             <List.Item>RxJS</List.Item>
             <List.Item>Apollo</List.Item>
-            <List.Item>NPM</List.Item>
-            <List.Item>Yarn</List.Item>
             <List.Item>Progressive Web Apps</List.Item>
             <List.Item>Sass</List.Item>
             <List.Item>CSS Flex</List.Item>
             <List.Item>CSS Grid</List.Item>
-            <List.Item>React Router</List.Item>
-            <List.Item>Lodash</List.Item>
-            <List.Item>Ramda</List.Item>
             <List.Item>Jest</List.Item>
             <List.Item>Cypress</List.Item>
             <List.Item>Enzyme</List.Item>
             <List.Item>React Testing Library</List.Item>
             <List.Item>React Native</List.Item>
-            <List.Item>Create React App</List.Item>
-            <List.Item>React Concurrent Mode</List.Item>
-            <List.Item>React Hooks</List.Item>
             <List.Item>Material UI</List.Item>
             <List.Item>Semantic UI</List.Item>
             <List.Item>Ant Design</List.Item>
             <List.Item>Styled Components</List.Item>
-            <List.Item>Emotion</List.Item>
-            <List.Item>JSS</List.Item>
-            <List.Item>DraftJS</List.Item>
-            <List.Item>React Virtualized</List.Item>
-            <List.Item>Recharts</List.Item>
-            <List.Item>MirageJS</List.Item>
-            <List.Item>JSDoc</List.Item>
-            <List.Item>TypeDoc</List.Item>
-            <List.Item>Server Side Rendering</List.Item>
-            <List.Item>Webpack</List.Item>
-            <List.Item>Babel</List.Item>
-            <List.Item>Eslint</List.Item>
-            <List.Item>Prettier</List.Item>
-            <List.Item>PayPal</List.Item>
-            <List.Item>Stripe</List.Item>
-            <List.Item>TensorFlow JS</List.Item>
-            <List.Item>Storybook</List.Item>
-            <List.Item>Bit</List.Item>
-            <List.Item>Gatsby</List.Item>
             <List.Item>Semantic HTML</List.Item>
             <List.Item>UX & UI Principles</List.Item>
             <List.Item>Responsive Design</List.Item>
@@ -209,8 +180,6 @@ function App() {
             <List.Item>PostgreSQL</List.Item>
             <List.Item>Building RESTful API's</List.Item>
             <List.Item>ExpressJS</List.Item>
-            <List.Item>Passport Authentication</List.Item>
-            <List.Item>OAuth Authentication</List.Item>
             <List.Item>JSON Web Token</List.Item>
             <List.Item>WebSockets</List.Item>
             <List.Item>NestJS</List.Item>
@@ -225,12 +194,6 @@ function App() {
             <List.Item>Firebase</List.Item>
             <List.Item>Firestore</List.Item>
             <List.Item>Google Cloud</List.Item>
-            <List.Item>Blockchain</List.Item>
-            <List.Item>Truffle Framework</List.Item>
-            <List.Item>Ganache</List.Item>
-            <List.Item>Drizzle</List.Item>
-            <List.Item>Puppeteer</List.Item>
-            <List.Item>Moo & Nearley</List.Item>
             <List.Item>Regular Expressions</List.Item>
           </List>
         </Grid.Column>
