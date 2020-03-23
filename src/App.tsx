@@ -24,7 +24,7 @@ const style = StyleSheet.create({
     display: 'flex',
   },
   careerItemContent: {
-    minWidth: 200,
+    minWidth: 150,
     marginRight: 20,
     flex: 'none',
   },
@@ -32,12 +32,12 @@ const style = StyleSheet.create({
 
 function App() {
   return (
-    <Box p={4}>
+    <Box p={3}>
       <Flex>
         <Flex
           flexDirection="column"
           minWidth={150}
-          mr={5}
+          mr={3}
           justifyContent="center"
           alignItems="center"
         >
@@ -132,7 +132,7 @@ function App() {
         <Flex
           flexDirection="column"
           minWidth={150}
-          mr={5}
+          mr={3}
           justifyContent="center"
           alignItems="center"
         >
@@ -299,7 +299,7 @@ function App() {
         <Flex
           flexDirection="column"
           minWidth={150}
-          mr={5}
+          mr={2}
           justifyContent="center"
           alignItems="center"
         >
@@ -311,7 +311,7 @@ function App() {
 
         <Item.Group>
           <Item className={css(style.careerItem)}>
-            <Box mr={5}>
+            <Box mr={4}>
               <Item.Image size="tiny" src={levi9} />
             </Box>
 
@@ -319,7 +319,7 @@ function App() {
               <Item.Header as="a">Levi9</Item.Header>
               <Item.Meta>Technology Services</Item.Meta>
               <Item.Description>JavaScript Developer</Item.Description>
-              <Item.Extra>2019 February - Preset</Item.Extra>
+              <Item.Extra>2019 Feb - Preset</Item.Extra>
             </Item.Content>
 
             <Step.Group>
@@ -339,7 +339,7 @@ function App() {
           </Item>
           <br />
           <Item className={css(style.careerItem)}>
-            <Box mr={5}>
+            <Box mr={4}>
               <Item.Image size="tiny" src={highoutput} />
             </Box>
 
@@ -347,7 +347,7 @@ function App() {
               <Item.Header as="a">HighOutput</Item.Header>
               <Item.Meta>Ventures</Item.Meta>
               <Item.Description>JavaScript Developer</Item.Description>
-              <Item.Extra>2018 October - 2019 February</Item.Extra>
+              <Item.Extra>2018 Oct - 2019 Feb</Item.Extra>
             </Item.Content>
 
             <Step.Group>
@@ -367,7 +367,7 @@ function App() {
           </Item>
           <br />
           <Item className={css(style.careerItem)}>
-            <Box mr={5}>
+            <Box mr={4}>
               <Item.Image size="tiny" src={fitneer} />
             </Box>
 
@@ -375,7 +375,7 @@ function App() {
               <Item.Header as="a">Fitneer</Item.Header>
               <Item.Meta>Find your fitness peer</Item.Meta>
               <Item.Description>FullStack Developer</Item.Description>
-              <Item.Extra>2017 July - 2018 October</Item.Extra>
+              <Item.Extra>2017 Jul - 2018 Oct</Item.Extra>
             </Item.Content>
 
             <Step.Group>
@@ -401,7 +401,7 @@ function App() {
         <Flex
           flexDirection="column"
           minWidth={150}
-          mr={5}
+          mr={2}
           justifyContent="center"
           alignItems="center"
         >
@@ -413,7 +413,7 @@ function App() {
 
         <Item.Group>
           <Item>
-            <Box mr={5}>
+            <Box mr={4}>
               <Item.Image size="tiny" src={collegeOfTourism} />
             </Box>
 
@@ -426,7 +426,7 @@ function App() {
           </Item>
           <br />
           <Item>
-            <Box mr={5}>
+            <Box mr={4}>
               <Item.Image size="tiny" src={fon} />
             </Box>
 
