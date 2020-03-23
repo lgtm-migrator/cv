@@ -27,15 +27,6 @@ const style = StyleSheet.create({
 function App() {
   return (
     <Grid className={css(style.container)} columns="equal">
-      {/* <Grid.Row>
-        <Grid.Column textAlign="center">
-          <Header as="h2" icon>
-            <Icon color="grey" name="laptop" />
-            Mateja Petrovic
-            <Header.Subheader>Full Stack Developer CV</Header.Subheader>
-          </Header>
-        </Grid.Column>
-      </Grid.Row> */}
       <Grid.Row>
         <Grid.Column width={3} textAlign="center" verticalAlign="middle">
           <Header as="h2" icon>
