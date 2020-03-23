@@ -1,10 +1,9 @@
-import { css, StyleSheet } from 'aphrodite';
 import React from 'react';
+import { Box, Flex } from 'rebass';
 import 'semantic-ui-css/semantic.min.css';
 import {
   Card,
   Divider,
-  Grid,
   Header,
   Icon,
   Image,
@@ -18,24 +17,24 @@ import highoutput from './img/highoutput.png';
 import levi9 from './img/levi9.jpeg';
 import profile from './img/profile.jpg';
 
-const style = StyleSheet.create({
-  container: {
-    padding: 20,
-  },
-});
-
 function App() {
   return (
-    <Grid className={css(style.container)} columns="equal">
-      <Grid.Row>
-        <Grid.Column width={3} textAlign="center" verticalAlign="middle">
+    <Box p={4}>
+      <Flex>
+        <Flex
+          flexDirection="column"
+          minWidth={150}
+          mr={5}
+          justifyContent="center"
+          alignItems="center"
+        >
           <Header as="h2" icon>
             <Icon color="grey" name="user" />
             Personal Info
           </Header>
-        </Grid.Column>
-        <Grid.Column>
-          <Grid.Row>
+        </Flex>
+        <Box flex={1} mr={3}>
+          <Flex>
             <Header>
               About
               <br />
@@ -49,9 +48,9 @@ function App() {
                 and as a good teacher.
               </Header.Subheader>
             </Header>
-          </Grid.Row>
+          </Flex>
           <Divider />
-          <Grid.Row>
+          <Flex flexDirection="column">
             <Header>Links</Header>
             <List>
               <List.Item>
@@ -97,9 +96,9 @@ function App() {
                 </List.Content>
               </List.Item>
             </List>
-          </Grid.Row>
-        </Grid.Column>
-        <Grid.Column>
+          </Flex>
+        </Box>
+        <Box>
           <Card>
             <Image src={profile} wrapped ui={false} />
             {/* <Card.Content>
@@ -113,18 +112,24 @@ function App() {
               <Icon color="grey" name="briefcase" />3 years of experience
             </Card.Content> */}
           </Card>
-        </Grid.Column>
-      </Grid.Row>
+        </Box>
+      </Flex>
       <Divider />
-      <Grid.Row>
-        <Grid.Column width={3} textAlign="center" verticalAlign="middle">
+      <Flex>
+        <Flex
+          flexDirection="column"
+          minWidth={150}
+          mr={5}
+          justifyContent="center"
+          alignItems="center"
+        >
           <Header as="h2" icon>
             <Icon color="grey" name="wrench" />
             Skills
           </Header>
-        </Grid.Column>
+        </Flex>
 
-        <Grid.Column>
+        <Box mr={60}>
           <List bulleted>
             <List.Item>JavaScript</List.Item>
             <List.Item>TypeScript</List.Item>
@@ -184,8 +189,8 @@ function App() {
             <List.Item>Google Analytics</List.Item>
             <List.Item>SEO</List.Item>
           </List>
-        </Grid.Column>
-        <Grid.Column>
+        </Box>
+        <Box mr={60}>
           <List bulleted>
             <List.Item>NodeJS</List.Item>
             <List.Item>Microservices</List.Item>
@@ -224,8 +229,8 @@ function App() {
             <List.Item>Moo & Nearley</List.Item>
             <List.Item>Regular Expressions</List.Item>
           </List>
-        </Grid.Column>
-        <Grid.Column>
+        </Box>
+        <Box mr={60}>
           <List bulleted>
             <List.Item>Functional Programming</List.Item>
             <List.Item>Object Oriented Programming</List.Item>
@@ -247,8 +252,8 @@ function App() {
             <List.Item>PhotoShop</List.Item>
             <List.Item>Illustrator</List.Item>
           </List>
-        </Grid.Column>
-        <Grid.Column>
+        </Box>
+        <Box mr={60}>
           <List bulleted>
             <List.Item>Team work</List.Item>
             <List.Item>Communication</List.Item>
@@ -260,20 +265,28 @@ function App() {
             <List.Item>Marketing</List.Item>
             <List.Item>Project Management</List.Item>
           </List>
-        </Grid.Column>
-      </Grid.Row>
+        </Box>
+      </Flex>
       <Divider />
-      <Grid.Row>
-        <Grid.Column width={3} textAlign="center" verticalAlign="middle">
+      <Flex>
+        <Flex
+          flexDirection="column"
+          minWidth={150}
+          mr={5}
+          justifyContent="center"
+          alignItems="center"
+        >
           <Header as="h2" icon>
             <Icon color="grey" name="briefcase" />
             Career
           </Header>
-        </Grid.Column>
+        </Flex>
 
         <Item.Group>
           <Item>
-            <Item.Image size="tiny" src={levi9} />
+            <Box mr={5}>
+              <Item.Image size="tiny" src={levi9} />
+            </Box>
 
             <Item.Content>
               <Item.Header as="a">Levi9</Item.Header>
@@ -284,7 +297,9 @@ function App() {
           </Item>
           <br />
           <Item>
-            <Item.Image size="tiny" src={highoutput} />
+            <Box mr={5}>
+              <Item.Image size="tiny" src={highoutput} />
+            </Box>
 
             <Item.Content>
               <Item.Header as="a">HighOutput</Item.Header>
@@ -295,7 +310,9 @@ function App() {
           </Item>
           <br />
           <Item>
-            <Item.Image size="tiny" src={fitneer} />
+            <Box mr={5}>
+              <Item.Image size="tiny" src={fitneer} />
+            </Box>
 
             <Item.Content>
               <Item.Header as="a">Fitneer</Item.Header>
@@ -305,19 +322,27 @@ function App() {
             </Item.Content>
           </Item>
         </Item.Group>
-      </Grid.Row>
+      </Flex>
       <Divider />
-      <Grid.Row>
-        <Grid.Column width={3} textAlign="center" verticalAlign="middle">
+      <Flex>
+        <Flex
+          flexDirection="column"
+          minWidth={150}
+          mr={5}
+          justifyContent="center"
+          alignItems="center"
+        >
           <Header as="h2" icon>
             <Icon color="grey" name="book" />
             Education
           </Header>
-        </Grid.Column>
+        </Flex>
 
         <Item.Group>
           <Item>
-            <Item.Image size="tiny" src={collegeOfTourism} />
+            <Box mr={5}>
+              <Item.Image size="tiny" src={collegeOfTourism} />
+            </Box>
 
             <Item.Content>
               <Item.Header as="a">College of Tourism</Item.Header>
@@ -328,7 +353,9 @@ function App() {
           </Item>
           <br />
           <Item>
-            <Item.Image size="tiny" src={fon} />
+            <Box mr={5}>
+              <Item.Image size="tiny" src={fon} />
+            </Box>
 
             <Item.Content>
               <Item.Header as="a">
@@ -340,8 +367,8 @@ function App() {
             </Item.Content>
           </Item>
         </Item.Group>
-      </Grid.Row>
-    </Grid>
+      </Flex>
+    </Box>
   );
 }
 
