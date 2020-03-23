@@ -142,7 +142,7 @@ function App() {
           </Header>
         </Flex>
 
-        <Box>
+        <Box mb={5}>
           <Box mb={3}>
             <Header>Featured</Header>
             <List horizontal divided>
@@ -172,46 +172,13 @@ function App() {
                 <List.Item>Sass</List.Item>
                 <List.Item>CSS Flex</List.Item>
                 <List.Item>CSS Grid</List.Item>
-                <List.Item>React Router</List.Item>
-                <List.Item>Lodash</List.Item>
-                <List.Item>Ramda</List.Item>
                 <List.Item>Jest</List.Item>
                 <List.Item>Cypress</List.Item>
                 <List.Item>Enzyme</List.Item>
                 <List.Item>React Testing Library</List.Item>
                 <List.Item>React Native</List.Item>
-                <List.Item>Create React App</List.Item>
-                <List.Item>React Concurrent Mode</List.Item>
-                <List.Item>React Hooks</List.Item>
-                <List.Item>Material UI</List.Item>
-                <List.Item>Semantic UI</List.Item>
-                <List.Item>Ant Design</List.Item>
-                <List.Item>Styled Components</List.Item>
-                <List.Item>Emotion</List.Item>
-                <List.Item>JSS</List.Item>
-                <List.Item>DraftJS</List.Item>
-                <List.Item>React Virtualized</List.Item>
-                <List.Item>Recharts</List.Item>
-                <List.Item>MirageJS</List.Item>
-                <List.Item>JSDoc</List.Item>
-                <List.Item>TypeDoc</List.Item>
-                <List.Item>Server Side Rendering</List.Item>
-                <List.Item>Webpack</List.Item>
-                <List.Item>Babel</List.Item>
-                <List.Item>Eslint</List.Item>
-                <List.Item>Prettier</List.Item>
-                <List.Item>PayPal</List.Item>
-                <List.Item>Stripe</List.Item>
-                <List.Item>TensorFlow JS</List.Item>
-                <List.Item>Storybook</List.Item>
-                <List.Item>Bit</List.Item>
-                <List.Item>Gatsby</List.Item>
-                <List.Item>Semantic HTML</List.Item>
-                <List.Item>UX & UI Principles</List.Item>
                 <List.Item>Responsive Design</List.Item>
                 <List.Item>Performance Optimization</List.Item>
-                <List.Item>Google Analytics</List.Item>
-                <List.Item>SEO</List.Item>
               </List>
             </Box>
             <Box mr={60}>
@@ -229,29 +196,16 @@ function App() {
                 <List.Item>PostgreSQL</List.Item>
                 <List.Item>Building RESTful API's</List.Item>
                 <List.Item>ExpressJS</List.Item>
-                <List.Item>Passport Authentication</List.Item>
                 <List.Item>OAuth Authentication</List.Item>
                 <List.Item>JSON Web Token</List.Item>
                 <List.Item>WebSockets</List.Item>
                 <List.Item>NestJS</List.Item>
                 <List.Item>Dotnet Core</List.Item>
-                <List.Item>Entity Framework Core</List.Item>
-                <List.Item>Linq</List.Item>
                 <List.Item>Python</List.Item>
                 <List.Item>Django</List.Item>
                 <List.Item>F#</List.Item>
                 <List.Item>Haskell</List.Item>
                 <List.Item>Scala</List.Item>
-                <List.Item>Firebase</List.Item>
-                <List.Item>Firestore</List.Item>
-                <List.Item>Google Cloud</List.Item>
-                <List.Item>Blockchain</List.Item>
-                <List.Item>Truffle Framework</List.Item>
-                <List.Item>Ganache</List.Item>
-                <List.Item>Drizzle</List.Item>
-                <List.Item>Puppeteer</List.Item>
-                <List.Item>Moo & Nearley</List.Item>
-                <List.Item>Regular Expressions</List.Item>
               </List>
             </Box>
             <Box mr={60}>
@@ -259,6 +213,9 @@ function App() {
               <List bulleted>
                 <List.Item>Object Oriented Programming</List.Item>
                 <List.Item>Software Architecture</List.Item>
+                <List.Item>UX & UI Principles</List.Item>
+                <List.Item>Google Analytics</List.Item>
+                <List.Item>SEO</List.Item>
                 <List.Item>Git</List.Item>
                 <List.Item>Github</List.Item>
                 <List.Item>Github Actions</List.Item>
@@ -273,8 +230,6 @@ function App() {
                 <List.Item>Performance Monitoring</List.Item>
                 <List.Item>Visual Studio Code</List.Item>
                 <List.Item>Chrome DevTools</List.Item>
-                <List.Item>PhotoShop</List.Item>
-                <List.Item>Illustrator</List.Item>
               </List>
             </Box>
             <Box mr={60}>
@@ -294,7 +249,6 @@ function App() {
           </Flex>
         </Box>
       </Flex>
-      <Divider />
       <Flex>
         <Flex
           flexDirection="column"
@@ -326,13 +280,13 @@ function App() {
               <Step>
                 <Step.Content>
                   <Step.Title>Angular App</Step.Title>
-                  <Step.Description>Fin-tech web app.</Step.Description>
+                  <Step.Description>Fin-tech app.</Step.Description>
                 </Step.Content>
               </Step>
               <Step>
                 <Step.Content>
                   <Step.Title>React App</Step.Title>
-                  <Step.Description>Visual website builder.</Step.Description>
+                  <Step.Description>Website builder.</Step.Description>
                 </Step.Content>
               </Step>
             </Step.Group>
