@@ -1,3 +1,4 @@
+import { css, StyleSheet } from 'aphrodite';
 import React from 'react';
 import { Box, Flex } from 'rebass';
 import 'semantic-ui-css/semantic.min.css';
@@ -9,6 +10,7 @@ import {
   Image,
   Item,
   List,
+  Step,
 } from 'semantic-ui-react';
 import collegeOfTourism from './img/collegeOfTourism.png';
 import fitneer from './img/fitneer.svg';
@@ -16,6 +18,17 @@ import fon from './img/fon.png';
 import highoutput from './img/highoutput.png';
 import levi9 from './img/levi9.jpeg';
 import profile from './img/profile.jpg';
+
+const style = StyleSheet.create({
+  careerItem: {
+    display: 'flex',
+  },
+  careerItemContent: {
+    minWidth: 200,
+    marginRight: 20,
+    flex: 'none',
+  },
+});
 
 function App() {
   return (
@@ -283,43 +296,95 @@ function App() {
         </Flex>
 
         <Item.Group>
-          <Item>
+          <Item className={css(style.careerItem)}>
             <Box mr={5}>
               <Item.Image size="tiny" src={levi9} />
             </Box>
 
-            <Item.Content>
+            <Item.Content className={css(style.careerItemContent)}>
               <Item.Header as="a">Levi9</Item.Header>
               <Item.Meta>Technology Services</Item.Meta>
               <Item.Description>JavaScript Developer</Item.Description>
               <Item.Extra>2019 February - Preset</Item.Extra>
             </Item.Content>
+
+            <Step.Group>
+              <Step>
+                <Step.Content>
+                  <Step.Title>Angular App</Step.Title>
+                  <Step.Description>
+                    I've worked on building a fin-tech Angular app to market.
+                  </Step.Description>
+                </Step.Content>
+              </Step>
+              <Step>
+                <Step.Content>
+                  <Step.Title>React App</Step.Title>
+                  <Step.Description>
+                    I'm working on a React based visual website builder.
+                  </Step.Description>
+                </Step.Content>
+              </Step>
+            </Step.Group>
           </Item>
           <br />
-          <Item>
+          <Item className={css(style.careerItem)}>
             <Box mr={5}>
               <Item.Image size="tiny" src={highoutput} />
             </Box>
 
-            <Item.Content>
+            <Item.Content className={css(style.careerItemContent)}>
               <Item.Header as="a">HighOutput</Item.Header>
               <Item.Meta>Ventures</Item.Meta>
               <Item.Description>JavaScript Developer</Item.Description>
               <Item.Extra>2018 October - 2019 February</Item.Extra>
             </Item.Content>
+
+            <Step.Group>
+              <Step>
+                <Step.Content>
+                  <Step.Title>
+                    <a href="https://app.reitscreener.com/" target="__blank">
+                      Reitscreener
+                    </a>
+                  </Step.Title>
+                  <Step.Description>
+                    I've built on top of an existing React app.
+                  </Step.Description>
+                </Step.Content>
+              </Step>
+            </Step.Group>
           </Item>
           <br />
-          <Item>
+          <Item className={css(style.careerItem)}>
             <Box mr={5}>
               <Item.Image size="tiny" src={fitneer} />
             </Box>
 
-            <Item.Content>
+            <Item.Content className={css(style.careerItemContent)}>
               <Item.Header as="a">Fitneer</Item.Header>
               <Item.Meta>Find your fitness peer</Item.Meta>
               <Item.Description>FullStack Developer</Item.Description>
               <Item.Extra>2017 July - 2018 October</Item.Extra>
             </Item.Content>
+
+            <Step.Group>
+              <Step>
+                <Step.Content>
+                  <Step.Title>
+                    <a
+                      href="https://officialfitneer.firebaseapp.com/"
+                      target="__blank"
+                    >
+                      Fitneer
+                    </a>
+                  </Step.Title>
+                  <Step.Description>
+                    I've built a PWA, front to back, using Angular and Firebase.
+                  </Step.Description>
+                </Step.Content>
+              </Step>
+            </Step.Group>
           </Item>
         </Item.Group>
       </Flex>
