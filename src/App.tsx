@@ -326,15 +326,13 @@ function App() {
               <Step>
                 <Step.Content>
                   <Step.Title>Angular App</Step.Title>
-                  <Step.Description>Fin-tech Angular app.</Step.Description>
+                  <Step.Description>Fin-tech web app.</Step.Description>
                 </Step.Content>
               </Step>
               <Step>
                 <Step.Content>
                   <Step.Title>React App</Step.Title>
-                  <Step.Description>
-                    React based visual website builder.
-                  </Step.Description>
+                  <Step.Description>Visual website builder.</Step.Description>
                 </Step.Content>
               </Step>
             </Step.Group>
@@ -391,9 +389,7 @@ function App() {
                       Fitneer
                     </a>
                   </Step.Title>
-                  <Step.Description>
-                    I've built a PWA, front to back, using Angular and Firebase.
-                  </Step.Description>
+                  <Step.Description>Angular and Firebase PWA.</Step.Description>
                 </Step.Content>
               </Step>
             </Step.Group>
