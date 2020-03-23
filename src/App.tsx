@@ -312,16 +312,14 @@ function App() {
               <Step>
                 <Step.Content>
                   <Step.Title>Angular App</Step.Title>
-                  <Step.Description>
-                    I've worked on building a fin-tech Angular app to market.
-                  </Step.Description>
+                  <Step.Description>Fin-tech Angular app.</Step.Description>
                 </Step.Content>
               </Step>
               <Step>
                 <Step.Content>
                   <Step.Title>React App</Step.Title>
                   <Step.Description>
-                    I'm working on a React based visual website builder.
+                    React based visual website builder.
                   </Step.Description>
                 </Step.Content>
               </Step>
