@@ -15,9 +15,12 @@ import {
 import collegeOfTourism from './img/collegeOfTourism.png';
 import fitneer from './img/fitneer.svg';
 import fon from './img/fon.png';
+import hackerNews from './img/hacker-news.png';
 import highoutput from './img/highoutput.png';
 import levi9 from './img/levi9.jpeg';
+import njamNjam from './img/njam-njam.png';
 import profile from './img/profile.jpg';
+import videoStoryteller from './img/video-storyteller.png';
 
 const style = StyleSheet.create({
   careerItem: {
@@ -395,6 +398,47 @@ function App() {
             </Step.Group>
           </Item>
         </Item.Group>
+      </Flex>
+      <Divider />
+      <Flex>
+        <Flex
+          flexDirection="column"
+          minWidth={150}
+          mr={2}
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Header as="h2" icon>
+            <Icon color="grey" name="file code" />
+            Projects
+          </Header>
+        </Flex>
+
+        <Flex>
+          <Flex flexDirection="column" alignItems="center">
+            <img src={videoStoryteller} alt="Video Storyteller" height={150} />
+            <Box mt={3} style={{ textAlign: 'center' }}>
+              <a href="https://video-styteller-dev.web.app">
+                Video Storyteller
+              </a>{' '}
+              is React and Firebase powered whiteboard video creator
+            </Box>
+          </Flex>
+          <Flex flexDirection="column" alignItems="center">
+            <img src={njamNjam} alt="Video Storyteller" height={150} />
+            <Box mt={3} style={{ textAlign: 'center' }}>
+              <a href="https://njam-njam.web.app">Njam Njam</a> is React and
+              GraphQL powered app for group food ordering
+            </Box>
+          </Flex>
+          <Flex flexDirection="column" alignItems="center">
+            <img src={hackerNews} alt="Video Storyteller" height={150} />
+            <Box mt={3} style={{ textAlign: 'center' }}>
+              <a href="https://mateja176-react-hn.web.app">Hacker News Clone</a>{' '}
+              is React app which loads articles as you scroll
+            </Box>
+          </Flex>
+        </Flex>
       </Flex>
       <Divider />
       <Flex>
