@@ -417,7 +417,7 @@ function App() {
         <Flex>
           <Flex flexDirection="column" alignItems="center">
             <img src={videoStoryteller} alt="Video Storyteller" height={150} />
-            <Box mt={3} style={{ textAlign: 'center' }}>
+            <Box mt={3} mr={3} style={{ textAlign: 'center' }}>
               <a href="https://video-styteller-dev.web.app">
                 Video Storyteller
               </a>{' '}
@@ -426,14 +426,14 @@ function App() {
           </Flex>
           <Flex flexDirection="column" alignItems="center">
             <img src={njamNjam} alt="Video Storyteller" height={150} />
-            <Box mt={3} style={{ textAlign: 'center' }}>
+            <Box mt={3} mr={3} style={{ textAlign: 'center' }}>
               <a href="https://njam-njam.web.app">Njam Njam</a> is React and
               GraphQL powered app for group food ordering
             </Box>
           </Flex>
           <Flex flexDirection="column" alignItems="center">
             <img src={hackerNews} alt="Video Storyteller" height={150} />
-            <Box mt={3} style={{ textAlign: 'center' }}>
+            <Box mt={3} mr={3} style={{ textAlign: 'center' }}>
               <a href="https://mateja176-react-hn.web.app">Hacker News Clone</a>{' '}
               is React app which loads articles as you scroll
             </Box>
