@@ -297,8 +297,7 @@ function App() {
           </Flex>
         </Box>
       </Flex>
-      <Divider />
-      <Flex>
+      <Flex mt={30}>
         <Flex
           flexDirection="column"
           minWidth={150}
@@ -329,13 +328,13 @@ function App() {
               <Step>
                 <Step.Content>
                   <Step.Title>Angular App</Step.Title>
-                  <Step.Description>Fin-tech web app.</Step.Description>
+                  <Step.Description>Fin-tech app</Step.Description>
                 </Step.Content>
               </Step>
               <Step>
                 <Step.Content>
                   <Step.Title>React App</Step.Title>
-                  <Step.Description>Visual website builder.</Step.Description>
+                  <Step.Description>Website builder</Step.Description>
                 </Step.Content>
               </Step>
             </Step.Group>
@@ -362,7 +361,7 @@ function App() {
                     </a>
                   </Step.Title>
                   <Step.Description>
-                    I've built on top of an existing React app.
+                    Building on top of an existing React app
                   </Step.Description>
                 </Step.Content>
               </Step>
@@ -392,7 +391,7 @@ function App() {
                       Fitneer
                     </a>
                   </Step.Title>
-                  <Step.Description>Angular and Firebase PWA.</Step.Description>
+                  <Step.Description>Angular and Firebase PWA</Step.Description>
                 </Step.Content>
               </Step>
             </Step.Group>
