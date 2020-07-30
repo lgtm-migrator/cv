@@ -15,8 +15,8 @@ import {
 import collegeOfTourism from './img/collegeOfTourism.png';
 import fitneer from './img/fitneer.svg';
 import fon from './img/fon.png';
-import hackerNews from './img/hacker-news.png';
 import highoutput from './img/highoutput.png';
+import ideaSprout from './img/idea-sprout.png';
 import levi9 from './img/levi9.jpeg';
 import njamNjam from './img/njam-njam.png';
 import profile from './img/profile.jpg';
@@ -413,7 +413,15 @@ function App() {
           </Header>
         </Flex>
 
-        <Flex>
+        <Flex flexDirection="column">
+          <Flex flexDirection="column" alignItems="center">
+            <img src={ideaSprout} alt="Idea Sprout" height={150} />
+            <Box mt={3} mr={3} style={{ textAlign: 'center' }}>
+              <a href="https://idea-sprout.web.app">Idea Sprout</a> Validate
+              your startup idea and gain a following
+            </Box>
+          </Flex>
+          <Divider />
           <Flex flexDirection="column" alignItems="center">
             <img src={videoStoryteller} alt="Video Storyteller" height={150} />
             <Box mt={3} mr={3} style={{ textAlign: 'center' }}>
@@ -423,6 +431,7 @@ function App() {
               is React and Firebase powered whiteboard video creator
             </Box>
           </Flex>
+          <Divider />
           <Flex flexDirection="column" alignItems="center">
             <img src={njamNjam} alt="Video Storyteller" height={150} />
             <Box mt={3} mr={3} style={{ textAlign: 'center' }}>
@@ -430,17 +439,9 @@ function App() {
               GraphQL powered app for group food ordering
             </Box>
           </Flex>
-          <Flex flexDirection="column" alignItems="center">
-            <img src={hackerNews} alt="Video Storyteller" height={150} />
-            <Box mt={3} mr={3} style={{ textAlign: 'center' }}>
-              <a href="https://mateja176-react-hn.web.app">Hacker News Clone</a>{' '}
-              is React app which loads articles as you scroll
-            </Box>
-          </Flex>
         </Flex>
       </Flex>
-      <Divider />
-      <Flex>
+      <Flex mt={100} pt={40}>
         <Flex
           flexDirection="column"
           minWidth={150}
