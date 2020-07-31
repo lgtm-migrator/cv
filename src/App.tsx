@@ -321,7 +321,7 @@ function App() {
               <Item.Header as="a">Levi9</Item.Header>
               <Item.Meta>Technology Services</Item.Meta>
               <Item.Description>JavaScript Developer</Item.Description>
-              <Item.Extra>2019 Feb - Preset</Item.Extra>
+              <Item.Extra>2019 Feb - 2020 June</Item.Extra>
             </Item.Content>
 
             <Step.Group>
