@@ -216,7 +216,6 @@ function App() {
                 <List.Item>MySQL</List.Item>
                 <List.Item>MSSQL</List.Item>
                 <List.Item>Redis</List.Item>
-                <List.Item>Neo4j</List.Item>
                 <List.Item>PostgreSQL</List.Item>
                 <List.Item>Building RESTful API's</List.Item>
                 <List.Item>ExpressJS</List.Item>
@@ -226,7 +225,6 @@ function App() {
                 <List.Item>NestJS</List.Item>
                 <List.Item>Puppeteer</List.Item>
                 <List.Item>Firebase</List.Item>
-                <List.Item>Firestore</List.Item>
                 <List.Item>Google Cloud</List.Item>
                 <List.Item>Dotnet Core</List.Item>
                 <List.Item>F#</List.Item>
