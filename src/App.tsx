@@ -163,70 +163,39 @@ function App() {
               <List bulleted>
                 <List.Item>JavaScript</List.Item>
                 <List.Item>Angular</List.Item>
-                <List.Item>VueJS</List.Item>
-                <List.Item>Elm</List.Item>
-                <List.Item>Redux Observable</List.Item>
-                <List.Item>Redux Thunk</List.Item>
                 <List.Item>RxJS</List.Item>
                 <List.Item>Apollo</List.Item>
-                <List.Item>NPM</List.Item>
-                <List.Item>Yarn</List.Item>
-                <List.Item>Progressive Web Apps</List.Item>
+                <List.Item>NPM & Yarn</List.Item>
+                <List.Item>PWA's</List.Item>
                 <List.Item>Sass</List.Item>
-                <List.Item>CSS Flex</List.Item>
-                <List.Item>CSS Grid</List.Item>
-                <List.Item>React Router</List.Item>
-                <List.Item>Lodash</List.Item>
-                <List.Item>Ramda</List.Item>
                 <List.Item>Jest</List.Item>
                 <List.Item>Cypress</List.Item>
-                <List.Item>Enzyme</List.Item>
                 <List.Item>React Testing Library</List.Item>
-                <List.Item>React Native</List.Item>
-                <List.Item>Create React App</List.Item>
-                <List.Item>React Concurrent Mode</List.Item>
                 <List.Item>React Hooks</List.Item>
                 <List.Item>Material UI</List.Item>
-                <List.Item>Semantic UI</List.Item>
-                <List.Item>Ant Design</List.Item>
                 <List.Item>Styled Components</List.Item>
-                <List.Item>Emotion</List.Item>
-                <List.Item>JSS</List.Item>
-                <List.Item>DraftJS</List.Item>
-                <List.Item>React Virtualized</List.Item>
-                <List.Item>Recharts</List.Item>
-                <List.Item>MirageJS</List.Item>
-                <List.Item>JSDoc</List.Item>
-                <List.Item>TypeDoc</List.Item>
-                <List.Item>Server Side Rendering</List.Item>
-                <List.Item>Webpack</List.Item>
-                <List.Item>Babel</List.Item>
-                <List.Item>Eslint</List.Item>
-                <List.Item>Prettier</List.Item>
-                <List.Item>PayPal</List.Item>
-                <List.Item>Writing reusable components</List.Item>
+                <List.Item>Component reusability</List.Item>
                 <List.Item>Design Systems</List.Item>
                 <List.Item>Cross browser compatibility</List.Item>
-                <List.Item>Integrating with REST API's</List.Item>
-                <List.Item>Web security</List.Item>
-                <List.Item>UX & UI Principles</List.Item>
+                <List.Item>REST API's</List.Item>
                 <List.Item>Responsive Design</List.Item>
-                <List.Item>Performance Optimization</List.Item>
-                <List.Item>Google Analytics</List.Item>
                 <List.Item>SEO</List.Item>
+                <List.Item>Performance Optimization</List.Item>
                 <List.Item>GraphQL</List.Item>
                 <List.Item>OAuth Authentication</List.Item>
-                <List.Item>JSON Web Token</List.Item>
               </List>
             </Box>
             <Box mr={60}>
               <Header>Other</Header>
               <List bulleted>
+                <List.Item>Web security</List.Item>
+                <List.Item>UX & UI Principles</List.Item>
+                <List.Item>JSON Web Token</List.Item>
                 <List.Item>Establishing and improving code quality</List.Item>
-                <List.Item>Writing quality documentation</List.Item>
-                <List.Item>MVC Pattern</List.Item>
                 <List.Item>Object Oriented Programming</List.Item>
+                <List.Item>MVC Pattern</List.Item>
                 <List.Item>Software Architecture</List.Item>
+                <List.Item>Writing quality documentation</List.Item>
                 <List.Item>Git</List.Item>
                 <List.Item>Github</List.Item>
                 <List.Item>Github Actions</List.Item>
