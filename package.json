@@ -24,8 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn build",
     "deploy": "ts-node --project tsconfig.server.json scripts/deploy",
-    "ci": "yarn build && yarn deploy",
     "generate:pdf": "ts-node --project tsconfig.server.json services/generatePdf"
   },
   "eslintConfig": {
