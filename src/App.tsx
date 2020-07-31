@@ -204,85 +204,49 @@ function App() {
                 <List.Item>Eslint</List.Item>
                 <List.Item>Prettier</List.Item>
                 <List.Item>PayPal</List.Item>
-                <List.Item>Stripe</List.Item>
-                <List.Item>TensorFlow JS</List.Item>
-                <List.Item>Storybook</List.Item>
-                <List.Item>Bit</List.Item>
-                <List.Item>Gatsby</List.Item>
-                <List.Item>Semantic HTML</List.Item>
+                <List.Item>Writing reusable components</List.Item>
+                <List.Item>Design Systems</List.Item>
+                <List.Item>Cross browser compatibility</List.Item>
+                <List.Item>Integrating with REST API's</List.Item>
+                <List.Item>Web security</List.Item>
                 <List.Item>UX & UI Principles</List.Item>
                 <List.Item>Responsive Design</List.Item>
                 <List.Item>Performance Optimization</List.Item>
                 <List.Item>Google Analytics</List.Item>
                 <List.Item>SEO</List.Item>
-              </List>
-            </Box>
-            <Box mr={60}>
-              <Header>Backend</Header>
-              <List bulleted>
-                <List.Item>Microservices</List.Item>
-                <List.Item>RabbitMQ</List.Item>
-                <List.Item>TypeORM</List.Item>
                 <List.Item>GraphQL</List.Item>
-                <List.Item>MongoDB</List.Item>
-                <List.Item>MySQL</List.Item>
-                <List.Item>MSSQL</List.Item>
-                <List.Item>Redis</List.Item>
-                <List.Item>Neo4j</List.Item>
-                <List.Item>PostgreSQL</List.Item>
-                <List.Item>Building RESTful API's</List.Item>
-                <List.Item>ExpressJS</List.Item>
-                <List.Item>Passport Authentication</List.Item>
                 <List.Item>OAuth Authentication</List.Item>
                 <List.Item>JSON Web Token</List.Item>
-                <List.Item>WebSockets</List.Item>
-                <List.Item>NestJS</List.Item>
-                <List.Item>Dotnet Core</List.Item>
-                <List.Item>Entity Framework Core</List.Item>
-                <List.Item>Linq</List.Item>
-                <List.Item>Python</List.Item>
-                <List.Item>Django</List.Item>
-                <List.Item>F#</List.Item>
-                <List.Item>Haskell</List.Item>
-                <List.Item>Scala</List.Item>
-                <List.Item>Firebase</List.Item>
-                <List.Item>Firestore</List.Item>
-                <List.Item>Google Cloud</List.Item>
-                <List.Item>Blockchain</List.Item>
-                <List.Item>Truffle Framework</List.Item>
-                <List.Item>Ganache</List.Item>
-                <List.Item>Drizzle</List.Item>
-                <List.Item>Puppeteer</List.Item>
-                <List.Item>Moo & Nearley</List.Item>
-                <List.Item>Regular Expressions</List.Item>
               </List>
             </Box>
             <Box mr={60}>
               <Header>Other</Header>
               <List bulleted>
+                <List.Item>Establishing and improving code quality</List.Item>
+                <List.Item>Writing quality documentation</List.Item>
+                <List.Item>MVC Pattern</List.Item>
                 <List.Item>Object Oriented Programming</List.Item>
                 <List.Item>Software Architecture</List.Item>
                 <List.Item>Git</List.Item>
                 <List.Item>Github</List.Item>
                 <List.Item>Github Actions</List.Item>
-                <List.Item>TravisCI</List.Item>
-                <List.Item>Netlify</List.Item>
                 <List.Item>Docker</List.Item>
                 <List.Item>Vagrant</List.Item>
                 <List.Item>VirtualBox</List.Item>
                 <List.Item>Linux</List.Item>
                 <List.Item>Bash</List.Item>
-                <List.Item>Fish</List.Item>
                 <List.Item>Performance Monitoring</List.Item>
                 <List.Item>Visual Studio Code</List.Item>
                 <List.Item>Chrome DevTools</List.Item>
-                <List.Item>PhotoShop</List.Item>
-                <List.Item>Illustrator</List.Item>
               </List>
             </Box>
             <Box mr={60}>
               <Header>Interpersonal & Business</Header>
               <List bulleted>
+                <List.Item>Self-management skills</List.Item>
+                <List.Item>Continuous improvement mindset</List.Item>
+                <List.Item>Balancing idealism and pragmatism</List.Item>
+                <List.Item>Attention to detail</List.Item>
                 <List.Item>Team work</List.Item>
                 <List.Item>Communication</List.Item>
                 <List.Item>Leadership</List.Item>
