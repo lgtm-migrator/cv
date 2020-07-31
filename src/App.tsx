@@ -164,45 +164,24 @@ function App() {
                 <List.Item>JavaScript</List.Item>
                 <List.Item>Angular</List.Item>
                 <List.Item>VueJS</List.Item>
-                <List.Item>Elm</List.Item>
                 <List.Item>RxJS</List.Item>
                 <List.Item>Apollo</List.Item>
                 <List.Item>NPM & Yarn</List.Item>
                 <List.Item>PWA's</List.Item>
                 <List.Item>Sass</List.Item>
-                <List.Item>CSS Flex & Grid</List.Item>
-                <List.Item>React Router</List.Item>
                 <List.Item>Jest</List.Item>
                 <List.Item>Cypress</List.Item>
                 <List.Item>React Testing Library</List.Item>
-                <List.Item>React Native</List.Item>
-                <List.Item>React Concurrent Mode</List.Item>
                 <List.Item>React Hooks</List.Item>
                 <List.Item>Material UI</List.Item>
-                <List.Item>Semantic UI</List.Item>
-                <List.Item>Ant Design</List.Item>
-                <List.Item>Styled Components</List.Item>
-                <List.Item>Emotion</List.Item>
-                <List.Item>JSS</List.Item>
-                <List.Item>DraftJS</List.Item>
-                <List.Item>React Virtualized</List.Item>
                 <List.Item>JSDoc</List.Item>
-                <List.Item>SSR</List.Item>
                 <List.Item>Webpack</List.Item>
                 <List.Item>Babel</List.Item>
-                <List.Item>Eslint</List.Item>
-                <List.Item>Prettier</List.Item>
                 <List.Item>PayPal</List.Item>
                 <List.Item>Stripe</List.Item>
                 <List.Item>TensorFlow JS</List.Item>
-                <List.Item>Storybook</List.Item>
-                <List.Item>Bit</List.Item>
-                <List.Item>Gatsby</List.Item>
-                <List.Item>UX & UI Principles</List.Item>
                 <List.Item>Responsive Design</List.Item>
                 <List.Item>Performance Optimization</List.Item>
-                <List.Item>Google Analytics</List.Item>
-                <List.Item>SEO</List.Item>
               </List>
             </Box>
             <Box mr={60}>
@@ -216,7 +195,6 @@ function App() {
                 <List.Item>MySQL</List.Item>
                 <List.Item>MSSQL</List.Item>
                 <List.Item>Redis</List.Item>
-                <List.Item>Neo4j</List.Item>
                 <List.Item>PostgreSQL</List.Item>
                 <List.Item>Building RESTful API's</List.Item>
                 <List.Item>ExpressJS</List.Item>
@@ -225,24 +203,18 @@ function App() {
                 <List.Item>WebSockets</List.Item>
                 <List.Item>NestJS</List.Item>
                 <List.Item>Puppeteer</List.Item>
-                <List.Item>Firebase</List.Item>
-                <List.Item>Firestore</List.Item>
-                <List.Item>Google Cloud</List.Item>
-                <List.Item>Dotnet Core</List.Item>
-                <List.Item>F#</List.Item>
                 <List.Item>Python</List.Item>
                 <List.Item>Django</List.Item>
-                <List.Item>Haskell</List.Item>
-                <List.Item>Scala</List.Item>
-                <List.Item>Blockchain</List.Item>
-                <List.Item>Truffle Framework</List.Item>
-                <List.Item>Drizzle</List.Item>
-                <List.Item>Regular Expressions</List.Item>
+                <List.Item>Firebase</List.Item>
+                <List.Item>Google Cloud</List.Item>
               </List>
             </Box>
             <Box mr={60}>
               <Header>Other</Header>
               <List bulleted>
+                <List.Item>Writing clean code</List.Item>
+                <List.Item>Software Testing</List.Item>
+                <List.Item>Scripting</List.Item>
                 <List.Item>Object Oriented Programming</List.Item>
                 <List.Item>Software Architecture</List.Item>
                 <List.Item>Git</List.Item>
@@ -267,6 +239,7 @@ function App() {
                 <List.Item>Planning</List.Item>
                 <List.Item>Balancing idealism and pragmatism</List.Item>
                 <List.Item>Attention to detail</List.Item>
+                <List.Item>International relocation</List.Item>
               </List>
             </Box>
           </Flex>
